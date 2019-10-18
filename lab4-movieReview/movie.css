@@ -1,0 +1,90 @@
+body {
+	background-image: url("background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.banner {
+	background-image: url("bannerbg.png");
+	background-repeat: repeat-x;
+	background-position: top;
+	vertical-align: top;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+.content {
+	width: 800px;
+	border: 4px solid gray;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left {
+	width: 550px;
+}
+
+.title {
+	background-image: url("rbg.png");
+	background-repeat: repeat-x;
+	vertical-align: bottom;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	text-align: left;
+}
+
+.leftreview {
+	margin-left: 2%;
+	width: 47%;
+	float: left;
+}
+.rightreview{
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 47%;
+	float: right;
+}
+
+.leftreview img, .rightreview img{
+	float: left;
+	margin-right: 5px;
+}
+
+.leftreview p:nth-child(1), .rightreview p:nth-child(1) {
+	font-size:8pt;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	border: 2px solid gray;
+	border-radius: 10px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.leftreview p:nth-child(2), .rightreview p:nth-child(2){
+	margin-bottom: 20pt;
+	font-style: italic;
+
+}
+
+.right {
+	width: 250px;
+	background-color: #A2B964;
+	float: right;
+}
+
+dl {
+	margin-left: 10pt;
+	margin-right: 10pt;
+}
